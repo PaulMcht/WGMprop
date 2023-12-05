@@ -1,0 +1,41 @@
+{
+    "BLUR": {
+        "LIGHT": {
+            "sigma_mean": 0.0,
+            "sigma_std": 1.0
+        },
+        "MEDIUM": {
+            "sigma_mean": 0.0,
+            "sigma_std": 4.0
+        },
+        "HIGH": {
+            "sigma_mean": 0.0,
+            "sigma_std": 7.0
+        }
+    },
+    "GAUSSIAN": {
+        "LIGHT": {
+            "var": 0.002
+        },
+        "MEDIUM": {
+            "var": 0.01
+        },
+        "HIGH": {
+            "var": 0.05
+        }
+    },
+    "CONTRAST": {
+        "LIGHT": {
+            "contrast_mean": 1.0,
+            "contrast_std": 0.2
+        },
+        "MEDIUM": {
+            "contrast_mean": 1.0,
+            "contrast_std": 1.0
+        },
+        "HIGH": {
+            "contrast_mean": 1.0,
+            "contrast_std": 5.0
+        }
+    }
+}
