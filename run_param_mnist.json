@@ -1,20 +1,9 @@
 {
     "dataset"                      : "MNIST",
-    "weight_prefix"                : "mnist_weights_",
-    "model_path"                   : "mnist_weights_.h5",
-    "path_to_test_data"            : "dataset/mnist/test_batch",
-    "input_dim"                    : 28,    
-    "nb_class"                     : 10,
     "model_type"                   : "mlp", 
     "model_name"                   : "mlp4",
     "model_param": {
-        "include_top"           : false,
-        "include_preprocessing" : true,
-        "pooling"               : null,
-        "classifier_activation" : "linear",
-        "weights"               : "imagenet",
-        "weights_path"          : "D:\\gitlab\\wgmprop_icml\\mnist_weights_.h5",
-        "pred_scaling_factor"   : 100
+        "weights_path"          : WEIGHT_PATH
     },    
     "batch_size"                   : 1000,    
     "lr"                           : 1e-3,
@@ -33,13 +22,10 @@
     "percentiles"                  : [1, 2.5, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 97.5, 99],
     "noise_types"                  : ["blur", "contrast", "gaussian"],
     "noise_intensities"            : ["light", "medium", "high"], 
-    "image_prefix"                 : "",       
-    "train"                        : false,
+    "image_prefix"                 : "",     
     "visualize"                    : true,
     "save_results"                 : false,    
     "with_ref"                     : true,
     "use_subspace"                 : false,
-    "use_tf_network_linearization" : false, 
-    "load_weight_at_given_epoch"   : false,
-    "epoch_to_load_weight"         : null
+    "use_tf_network_linearization" : false
 }
